@@ -14,7 +14,6 @@ set showmode
 set showcmd
 set ruler
 
-" vim-plug
 call plug#begin('~/.vim/plugged')
 
 Plug 'itchyny/lightline.vim'
