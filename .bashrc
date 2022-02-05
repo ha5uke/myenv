@@ -123,5 +123,3 @@ alias pwninit='pwninit --template-path ~/Templates/template.py --template-bin-na
 ### for ghidra ###
 export PATH=~/Tools/jdk-11/bin:$PATH
 alias ghidra='~/Tools/ghidra_10.1.1_PUBLIC/ghidraRun'
-
-alias vi='vim'
