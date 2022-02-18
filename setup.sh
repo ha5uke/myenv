@@ -25,6 +25,7 @@ sudo mv rp-lin-x64 /usr/local/bin/rp++
 
 # pwninit
 sudo apt -y install liblzma-dev cargo patchelf elfutils
+cargo install pwninit
 
 # for ELF 32bit
 sudo apt -y install lib32stdc++6 lib32z1
