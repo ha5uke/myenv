@@ -19,7 +19,7 @@ sudo gem update
 sudo gem install one_gadget
 
 # rp++
-wget https://github.com/0vercl0k/rp/releases/download/v1/rp-lin-x64
+wget https://github.com/0vercl0k/rp/releases/download/v2.0.2/rp-lin-x64
 chmod +x rp-lin-x64
 sudo mv rp-lin-x64 /usr/local/bin/rp++
 
