@@ -7,11 +7,11 @@ sudo apt -y install python3 python3-pip python3-dev git libssl-dev libffi-dev bu
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade pwntools
 
-# gdb, peda, Pwngdb 
+# gdb, Pwndbg 
 sudo apt -y install gdb
-git clone https://github.com/longld/peda.git
-git clone https://github.com/scwuaptx/Pwngdb.git 
-cp ~/Pwngdb/.gdbinit ~/
+git clone https://github.com/pwndbg/pwndbg
+cd pwndbg
+./setup.sh
 
 # onegadget
 sudo apt -y install ruby
