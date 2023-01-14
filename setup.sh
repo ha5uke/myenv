@@ -12,6 +12,7 @@ sudo apt -y install gdb
 git clone https://github.com/pwndbg/pwndbg
 cd pwndbg
 ./setup.sh
+cd ~
 
 # onegadget
 sudo apt -y install ruby
@@ -19,9 +20,11 @@ sudo gem update
 sudo gem install one_gadget
 
 # rp++
-wget https://github.com/0vercl0k/rp/releases/download/v2.0.2/rp-lin-x64
-chmod +x rp-lin-x64
-sudo mv rp-lin-x64 /usr/local/bin/rp++
+sudo apt -y install make ninja-build
+git clone https://github.com/0vercl0k/rp.git
+cd ~/rp/src/build
+chmod u+x ./build-release.sh && ./build-release.sh
+cd ~
 
 # pwninit
 sudo apt -y install liblzma-dev cargo patchelf elfutils
